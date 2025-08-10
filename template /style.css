@@ -1,0 +1,42 @@
+
+body {
+    font-family: "Arial";
+}
+
+.tampilan,
+.daftar{
+    display:grid;
+    grid-template-columns:200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.tampilan{
+    margin-bottom:10px;
+}
+
+.input,
+.tanggal{
+    text-size: 15px;
+    padding: 6px; 
+}
+
+.button{
+    font-size:15px;
+    border:none;
+    color:white;
+    background-color:green;
+}
+
+.hapus{
+    color:white;
+    border:none;
+    background-color:darkred;
+    padding-top:6px;
+    padding-bottom:6px;
+    
+}
+
+.daftar {
+    align-items:center;
+}
